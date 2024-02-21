@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login">
+        <video id="video1" autoplay muted loop>
+            <source src="play.mp4" type="video/mp4">
+        </video>
+    <audio src="audio.mp3" type="mp3"></audio>
+
+        <form action="#" class="form">
+            <h1 class="head">login</h1>
+            <div class="content">
+                <div class="box">
+                    <i class="ri-user-3-line login_icon"></i>
+                    <div class="box-input">
+                        <input type="email" required class="input" id="login-email" placeholder="email">
+                        <label for="login-email" class="login_lable">email</label>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="ri-rock-2-line login_icon"></i>
+    
+                    <div class="box-input">
+                        <input type="password" required class="input" id="login-pass" placeholder="password">
+                        <label for="login-pass" class="login_lable">password</label>
+                        <i class="ri-eye-off-line login_eye" id="logon-eye"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tick">
+                <div class="tick-group">
+                    <input type="checkbox" class="tick-input" id="login-check">
+                    <label for="login-check" class="tick-lable">remember me</label>
+                </div>
+                <a href="#" class="forgot">forgot password</a>
+            </div>
+            <button type="submit" class="button">login</button>
+    
+            <p class="register"> dont have account <a href="#">register</a></p>
+        </form>
+    </div>
+   
+    </div>
+
+</body>
+
+</html>
